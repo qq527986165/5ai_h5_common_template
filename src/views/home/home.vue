@@ -1,6 +1,6 @@
 <template>
 	<div class="home">
-		homesss
+		home_test!!
 	</div>
 </template>
 
