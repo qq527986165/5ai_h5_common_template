@@ -1,0 +1,61 @@
+@import "constant";
+
+.w-h(@value1, @value2) {
+	width: @value1 / @rem;
+	height: @value2 / @rem;
+}
+
+.width(@value) {
+	width: @value / @rem;
+}
+
+.height(@value) {
+	height: @value / @rem;
+}
+
+.line-height(@value) {
+	line-height: @value / @rem;
+}
+
+.texti(@value) {
+	text-indent: @value / @rem;
+}
+
+.fontsize(@value) {
+	font-size: @value / @rem;
+}
+
+.radius(@value: 5px) {
+	border-radius: @value / @rem;
+}
+
+.border(@border, @value, @color) {
+	border: @arguments;
+}
+
+.margin(@top, @right, @bottom, @left) {
+	margin-top: @top / @rem;
+	margin-right: @right / @rem;
+	margin-bottom: @bottom / @rem;
+	margin-left: @left / @rem;
+}
+
+.padding(@top, @right, @bottom, @left) {
+	padding-top: @top / @rem;
+	padding-right: @right / @rem;
+	padding-bottom: @bottom / @rem;
+	padding-left: @left / @rem;
+}
+
+.pos(top, @value) {
+	top: @value / @rem;
+}
+.pos(bot, @value) {
+	bottom: @value / @rem;
+}
+.pos(lef, @value) {
+	left: @value / @rem;
+}
+.pos(rig, @value) {
+	right: @value / @rem;
+}
